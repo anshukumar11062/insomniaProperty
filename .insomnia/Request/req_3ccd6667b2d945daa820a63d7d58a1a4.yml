@@ -1,0 +1,73 @@
+_id: req_3ccd6667b2d945daa820a63d7d58a1a4
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085143045
+created: 1669269098125
+url: http://127.0.0.1:8000/api/property/saf/site-verification
+name: Site Verification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"safId":1054,
+    	"propertyType":2,
+    	"roadTypeId":2,
+    	"areaOfPlot":715,
+    	"wardId":1,
+    	"isMobileTower":false,
+    	"mobileTowerArea":100,
+    	"mobileTowerDate":"2022-01-15",
+    	"isHoardingBoard":false,
+    	"hoardingArea":152,
+    	"hoardingDate":"2022-05-20",
+    	"isPetrolPump":true,
+    	"petrolPumpUndergroundArea":650,
+    	"petrolPumpDate":"2015-06-10",
+    	"isHarvesting":false,
+    	"zone":1,
+    	"userId":1,
+    	"verificationStatus":1,
+    	"currentRoleId":5,
+    	
+    		"floorDetails":[
+    			{
+    				"floorVerifyId":4,
+    				"floorId":1,
+    				"floorMstrId":1,
+    				"usageType":1,
+    				"constructionType":3,
+    				"occupancyType":2,
+    				"builtupArea":500,
+    				"fromDate":"2015-01-20",
+    				"toDate":"2016-01-20"
+    			},
+    			{
+    				"floorVerifyId":5,
+    				"floorId":2,
+    				"floorMstrId":1,
+    				"usageType":1,
+    				"constructionType":3,
+    				"occupancyType":2,
+    				"builtupArea":500,
+    				"fromDate":"2015-01-20",
+    				"toDate":"2016-01-20"
+    			}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1669269098125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

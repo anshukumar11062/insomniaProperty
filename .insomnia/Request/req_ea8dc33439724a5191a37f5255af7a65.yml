@@ -1,0 +1,31 @@
+_id: req_ea8dc33439724a5191a37f5255af7a65
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671187281736
+created: 1668574707662
+url: http://127.0.0.1:8000/api/property/saf/calculate-by-saf-id
+name: Calculate SAF By SAF ID
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"id":1078
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1668574707662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

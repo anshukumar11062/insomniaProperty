@@ -1,0 +1,39 @@
+_id: req_0633e0723272425b837ab5e789e9e885
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085148454
+created: 1669353840917
+url: http://127.0.0.1:8000/api/property/saf/verifydoc
+name: Document Verify
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"verifications":[
+    		{
+    				"documentId":1,
+    				"verifyStatus":0
+    		},
+    		{
+    			"documentId":2,
+    			"verifyStatus":1
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1669353840917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

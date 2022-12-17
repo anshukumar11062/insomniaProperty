@@ -1,0 +1,31 @@
+_id: req_d7626e23d6bd455190bf65f8f7752a0c
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085085667
+created: 1660304723055
+url: http://127.0.0.1:8000/api/property/saf-details
+name: saf-details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    { 
+    	"id":1054
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1658582467067.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

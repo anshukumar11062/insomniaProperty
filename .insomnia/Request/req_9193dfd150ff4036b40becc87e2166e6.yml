@@ -1,0 +1,23 @@
+_id: req_9193dfd150ff4036b40becc87e2166e6
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085164105
+created: 1668670504156
+url: http://127.0.0.1:8000/api/property/saf/prop-transactions
+name: Get Prop Transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1668670504156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

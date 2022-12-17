@@ -1,0 +1,34 @@
+_id: req_a4d624aa43cc4473b1b2ebd9491c1c76
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085106869
+created: 1666184344475
+url: http://127.0.0.1:8000/api/property/saf/approvalrejection
+name: SAF Approval Rejection
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"workflowId":4,
+    	"roleId":10,
+    	"assessmentType":"New Assessment",
+    	"safId":1054,
+    	"status":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1658582467068.2373
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

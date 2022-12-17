@@ -1,0 +1,30 @@
+_id: req_10753e878ced47fd9ef8d8fbf4ffb83b
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671187269137
+created: 1671086196938
+url: http://127.0.0.1:8000/api/property/saf/proptransaction-by-id
+name: Prop Trans by saf or prop id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"safId":1010
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1668849562843.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_ca2400ed74dd4369a7eb74fb695b668f
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085088893
+created: 1660630860394
+url: http://127.0.0.1:8000/api/property/saf/escalate
+name: postEscalate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"escalateStatus":1,
+    	"safId":1054
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9381049cca184be5a3ae217e37612d57
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1658582467067.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_f963503b2bfe4c209fbf49a2d058a651
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085093048
+created: 1660633644637
+url: http://127.0.0.1:8000/api/property/saf/escalate/inbox
+name: spacial-inbox
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1658582467068.0771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

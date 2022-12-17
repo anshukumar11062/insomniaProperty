@@ -1,0 +1,75 @@
+_id: req_862f852dd9fb49ec8022b3708ee16bdc
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085154272
+created: 1670757805583
+url: http://127.0.0.1:8000/api/property/saf/geotagging
+name: Geo Tagging
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_5166a5e018c9479981f39bf078714fd1
+      name: safId
+      value: "926"
+      description: ""
+    - id: pair_371fd3817516449dac90d2dd1c44a41a
+      name: imagePath[0]
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\objectionInbox.png
+      disabled: false
+    - id: pair_65b6a9de646248baa3269a1790cf9511
+      name: imagePath[1]
+      value: sadfasd
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-15 161358.png
+      disabled: false
+    - id: pair_11a31efb7a6a4a0cafede1712d929044
+      name: imagePath[2]
+      value: sadfas
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-15 161414.png
+      disabled: false
+    - id: pair_59503ed88ee34f68918880d6633d570a
+      name: directionType[0]
+      value: Left
+      description: ""
+      disabled: false
+    - id: pair_bddf942bf2f44658ad27f1c74f498c5e
+      name: directionType[1]
+      value: Right
+      description: ""
+      disabled: false
+    - id: pair_fea36192a9644464bcf53ce292962f1a
+      name: directionType[2]
+      value: Upper
+      description: ""
+      disabled: false
+    - id: pair_39d316540ec64664b75e897a75d903d9
+      name: ""
+      value: ""
+      description: ""
+      type: text
+      multiline: false
+      fileName: C:\Users\win\Pictures\property-module.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_009705249c234f5ba08ff02bb3de49fc
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1670757805583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

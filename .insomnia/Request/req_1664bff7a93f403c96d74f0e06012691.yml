@@ -1,0 +1,33 @@
+_id: req_1664bff7a93f403c96d74f0e06012691
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671183529457
+created: 1660283727218
+url: http://127.0.0.1:8000/api/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"admin3@gmail.com",
+    	"password":"Admin1#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_05548e02077c41e2bd8b703542740c14
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1658582467064
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

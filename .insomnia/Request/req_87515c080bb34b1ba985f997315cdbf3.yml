@@ -1,0 +1,32 @@
+_id: req_87515c080bb34b1ba985f997315cdbf3
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085096493
+created: 1666081526034
+url: http://127.0.0.1:8000/api/property/saf/independent-comment
+name: Post Independent Comment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"safId":1054,
+    	"roleId":11,
+    	"comment":"All Documents Are Correct"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1658582467068.1626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

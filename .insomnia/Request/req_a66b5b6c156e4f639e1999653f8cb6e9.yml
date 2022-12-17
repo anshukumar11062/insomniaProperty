@@ -1,0 +1,31 @@
+_id: req_a66b5b6c156e4f639e1999653f8cb6e9
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1669360565488
+created: 1660283781264
+url: http://127.0.0.1:8000/api/logout
+name: logout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {	"token":"748|6QehrdlYaPteAM8yQm8NOCMexmEM6kzG3P8rm1KA"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_05548e02077c41e2bd8b703542740c14
+authentication:
+  type: bearer
+  token: 854|xtSvlNBDqEfe1ld0QGQOrBFKeQQK2j6z9LYZCKet
+  disabled: false
+metaSortKey: -1658582467014
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

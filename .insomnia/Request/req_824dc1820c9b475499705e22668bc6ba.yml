@@ -1,0 +1,85 @@
+_id: req_824dc1820c9b475499705e22668bc6ba
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671259557507
+created: 1670832069910
+url: http://127.0.0.1:8000/api/property/saf/apply
+name: apply-for-saf Main
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		  "assessmentType":"1",
+    			"transferModeId":"1",
+    			"ward":"50",
+    			"propertyType":"1",
+    			"dateOfPurchase":"",
+    			"ownershipType":"1",
+    			"roadType":"41",
+    			"areaOfPlot":"100",
+    			"isOwnerChanged":"0",
+    	   "isMobileTower":"0",
+    			"mobileTower":{
+    					"area":"100",
+    					"dateFrom":"2014-10-07"
+    			},
+    			"isHoardingBoard":"0",
+    			"hoardingBoard":{
+    					"area":"100",
+    					"dateFrom":"2016-10-07"
+    			},	
+    			"isPetrolPump":"0",
+    			"petrolPump":{
+    					"area":"100",
+    					"dateFrom":"2014-10-07"
+    			},
+    			"landOccupationDate":"",
+    			"isWaterHarvesting":"0",
+    			"previousHoldingId":"1",
+    			"zone":"1",
+    			"floor":[	
+    				{
+    					"floorNo":"1",
+    					"useType":"1",
+    					"constructionType":"1",
+    					"occupancyType":"2",
+    					"buildupArea":"700",
+    					"dateFrom":"2016-01-01",
+    					"dateUpto":""
+    				}
+    			],
+    			"owner":[
+    				{
+    					"ownerName":"dfsd rt434",
+    					"gender":"1",
+    					"dob":"2000-09-20",
+    					"guardianName":"dfsd",
+    					"relation":"S/O",
+    					"mobileNo":"1234567890",
+    					"email":"demo@gmail.com",
+    					"pan":"2022-01-01",
+    					"aadhar":"123456789000",
+    					"isArmedForce":"0",
+    					"isSpeciallyAbled":"0"
+    				}
+    			]
+    		} 
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f24b68dc7cc7427e89933d5bdde9d806
+authentication:
+  type: bearer
+  token: 3914|DgjlpZEDyCAdf1icDHEiuv30i516j08O6nOB4aEl
+  disabled: false
+metaSortKey: -1658582467066.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

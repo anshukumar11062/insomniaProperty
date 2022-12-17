@@ -1,0 +1,35 @@
+_id: req_8ec0956b7cdd49e1a67618737f6fee2a
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671085099767
+created: 1660459813751
+url: http://127.0.0.1:8000/api/property/saf/post/level
+name: postNextlevel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"safId":1054,
+    	"senderRoleId":6,
+    	"receiverRoleId":5,
+    	"comment":"dsgfsf"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9381049cca184be5a3ae217e37612d57
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1658582467068.2053
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

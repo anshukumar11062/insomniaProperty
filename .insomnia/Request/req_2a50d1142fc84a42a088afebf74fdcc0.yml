@@ -1,0 +1,32 @@
+_id: req_2a50d1142fc84a42a088afebf74fdcc0
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671187305490
+created: 1665571114657
+url: http://127.0.0.1:8000/api/property/saf-calculation
+name: SAF Calculation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1080
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_70040d5e4db2445aa668532c0addd273
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1665571114657
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

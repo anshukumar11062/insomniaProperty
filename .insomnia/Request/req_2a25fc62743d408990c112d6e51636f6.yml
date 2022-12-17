@@ -1,0 +1,33 @@
+_id: req_2a25fc62743d408990c112d6e51636f6
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671187304401
+created: 1668153956124
+url: http://127.0.0.1:8000/api/property/saf/back-to-citizen
+name: Back To Citizen
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"safId":1054,
+    	"workflowId":4,
+    	"currentRoleId":5,
+    	"comment":"Back To Citizen"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+metaSortKey: -1668153956124
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

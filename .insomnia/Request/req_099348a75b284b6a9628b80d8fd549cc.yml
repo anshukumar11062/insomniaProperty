@@ -1,0 +1,84 @@
+_id: req_099348a75b284b6a9628b80d8fd549cc
+type: Request
+parentId: wrk_fc40bf47df32405b9f94a6a9668ef518
+modified: 1671092382438
+created: 1660372385447
+url: http://127.0.0.1:8000/api/property/saf/apply
+name: apply-for-saf
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "assessmentType":"2",
+    "ward":"50",
+    "newWard":"3",
+    "propertyType":"1",
+    "dateOfPurchase":"",
+    "zone":"1",
+    "isMobileTower":"1",
+    "mobileTower":
+    	{
+    		"area":"150",
+    	 "dateFrom":"2020-12-01"
+    	},
+    	"isHoardingBoard":"1",
+    	"hoardingBoard":
+    		{
+    			"area":"150",
+    		 "dateFrom":"2022-12-12"
+    		},
+    	"isPetrolPump":"0",
+    	"petrolPump":
+    	{
+    		"area":"",
+    	 "dateFrom":"2022-12-12"
+    	},
+    	"isWaterHarvesting":"0",
+    	"roadType":"41",
+    	"areaOfPlot":"750",
+    	"owner":[
+    		{
+    			"ownerName":"Brandon Castillo",
+    		 "gender":"1",
+    			"dob":"2000-03-26",
+    			"guardianName":"IonaCross",
+    			"relation":"1",
+    			"mobileNo":"0123456789",
+    			"aadhar":"65464165",
+    			"pan":"56456erty",
+    			"email":"heqid@mailinator.com",
+    			"isArmedForce":"0",
+    			"isSpeciallyAbled":"1"
+    		}
+    	],
+    	"floor":[
+    		{
+    			"floorNo":"1",
+    		 "useType":"2",
+    		 "occupancyType":"2",
+    		 "constructionType":"3",
+    		 "buildupArea":"800",
+    		 "dateFrom":"2000-11-01",
+    		 "dateUpto":""
+    		}
+    		]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f24b68dc7cc7427e89933d5bdde9d806
+authentication:
+  type: bearer
+  token: 3809|wvlV5HsOzSOr12f9C4rpzpNQE7vtDFjlBl5naz2A
+  disabled: false
+metaSortKey: -1658582467067.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
